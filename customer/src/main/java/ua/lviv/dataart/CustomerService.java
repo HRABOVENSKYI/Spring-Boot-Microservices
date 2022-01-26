@@ -1,9 +1,6 @@
-package ua.lviv.dataart.service;
+package ua.lviv.dataart;
 
 import org.springframework.stereotype.Service;
-import ua.lviv.dataart.dao.CustomerRepository;
-import ua.lviv.dataart.dto.CustomerRegistrationRequest;
-import ua.lviv.dataart.model.Customer;
 
 @Service
 public record CustomerService(CustomerRepository customerRepository) {
