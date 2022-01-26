@@ -1,4 +1,4 @@
-package ua.lviv.dataart.model;
+package ua.lviv.dataart;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
